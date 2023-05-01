@@ -3,3 +3,6 @@ b = 10,
 c = 10
 
 console.log(a + b + c)
+
+/* comentário */
+/* console.log(a + b + c) */
