@@ -10,3 +10,5 @@ let string4 = string3.length
 console.log(string3 + string4)
 
 let string5 = string3[0]
+
+console.log(string6 + string5)
