@@ -16,8 +16,21 @@ if(fruit === "apple"){
 
 fruit = "apple"
 
+/* right */
+
 if(fruit === "apple"){
     console.log("fruit ok")
-} if else (fruit === "apple"){
+} else if (fruit === "apple"){
     console.log("fruit ok")
 }
+
+/* wrong */
+
+if(fruit === "apple"){
+    console.log("fruit ok")
+} if (fruit === "apple"){
+    console.log("fruit ok")
+}
+
+
+// conectivos && / ||
