@@ -28,4 +28,15 @@ let returnImed = (function(){
 
 console.log(returnImed)
 
+function sum(a, b) {
+    const soma = a+b
+    return soma
+}
 
+/* w/ arrow function */
+
+let sum2 = (a, b) => a+b 
+
+console.log(sum(1,2))
+
+console.log(sum2(3, 1))
