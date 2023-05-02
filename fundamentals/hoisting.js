@@ -7,13 +7,13 @@ console.log(foo)
 var foo
 
 /* erro */
-
+/* 
 foo1 = 20
 console.log(foo)
-let foo1
+let foo1 */
 
 /* erro */
-
+/* 
 foo2 = 20
 console.log(foo)
-const foo2
+const foo2 */
