@@ -6,4 +6,4 @@ const sumMult = (valor) => {
     return valor >= 10 ? valor + valor : valor * valor 
 }
 
-console.log(sumMult(2))
+console.log(sumMult(10))
