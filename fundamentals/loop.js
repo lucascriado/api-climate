@@ -17,6 +17,10 @@ do {
     counts++     
 } while (counts < str.length);
 
+for (y = 0; y < 10; y++) {
+    
+}
+
 /* 
 dados interaveis
 for in 
