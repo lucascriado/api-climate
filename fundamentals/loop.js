@@ -18,7 +18,7 @@ do {
 } while (counts < str.length);
 
 for (y = 0; y < 10; y++) {
-    
+    console.log(`imprime ${y}`)
 }
 
 /* 
