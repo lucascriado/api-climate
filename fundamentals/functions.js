@@ -20,6 +20,8 @@ console.log(anom())
 
 let arrowF = () => "this a return." 
 
+console.log(arrowF())
+
 /* função imediata ou exemplo de IIFE */
 
 let returnImed = (function(){
