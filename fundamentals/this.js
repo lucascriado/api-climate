@@ -25,10 +25,14 @@ const ventilador1 = new Ventilador('oi', 'oi1', 'oi2')
 
 console.log(ventilador1.velmax)
 
-function Car(a, b, c){
+function Car(a, b, d){
     this.make = a
     this.model = b
-    this.year = c
+    this.year = d
+}
+
+function hello(){
+    return 'hello world'
 }
 
 const contructorCar = new Car('tesla1', 'tesla2', 'tesla3')
@@ -42,6 +46,7 @@ ventilador1.ligaDesliga = function() {
 /* prototype function? */
 
 console.log(ventilador1.on)
+
 
 ventilador1.ligaDesliga()
 
