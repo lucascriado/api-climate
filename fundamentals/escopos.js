@@ -9,12 +9,16 @@ dont working
  */
 
 function Carros() {
-    this.nomeCarro = "Ferrari"
+    return 0
+    }
+    function CarrosNew(){
+        this.nomeCarro = "Ferrari"
+        this.log = `olá o nome da variavel é ${this.nomeCarro}`  
 }
 
-const CarrosResposta = new Carros()
+const CarrosResposta = new CarrosNew()
 
-console.log(CarrosResposta.nomeCarro)
+console.log(CarrosResposta.log)
 
 /* working  */
 
