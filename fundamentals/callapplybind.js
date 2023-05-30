@@ -17,6 +17,18 @@ console.log(obj)
 /* call */
 
 const objlist = {
-    prop: function Teste(){return 0},
-    numero = 5
+    prop: function Teste(){console.log(this)},
+    numero: 5
 }
+
+objlist.prop()
+
+console.log(objlist)
+
+const obj2 = {
+    hello: 'ola'
+}
+
+objlist.prop.call(obj2)
+
+console.log(objlist)
