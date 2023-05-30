@@ -47,6 +47,7 @@ ventilador1.ligaDesliga = function() {
 
 console.log(ventilador1.on)
 
+console.log(ventilador1.on)
 
 ventilador1.ligaDesliga()
 
