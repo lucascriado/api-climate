@@ -8,10 +8,11 @@ function dizTudo(x, y){
 
 dizTudo(dizOla, 'alou alou')
 
-function printaBrDev(){
-    return function(){
+function printaBrDev() {
+    return function() {
         console.log('olá mundo!')
     }
 }
 
 printaBrDev()()
+
