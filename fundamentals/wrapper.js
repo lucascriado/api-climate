@@ -32,3 +32,8 @@ num88 = num77.toFixed(2)
 num87 = num77.toFixed(3)
 console.log(num88)
 console.log(num87)
+
+let text = 123;
+let result = text.toString();
+let sum = result + 3
+console.log(sum)
