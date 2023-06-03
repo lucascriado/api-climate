@@ -24,3 +24,5 @@ const foreach = arrayBundle.forEach(x => console.log(`a: ${x.a},`))
 /* array elements with maped, aplica uma regra */
 const maped = arrayBundle.map(x => x.a * 5)
 console.log(maped)
+
+/* aprender sobre array reduce */
