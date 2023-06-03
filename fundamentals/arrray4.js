@@ -17,3 +17,6 @@ console.log(filtrando)
 const find = arrayBundle.find(x => x.a === 10)
 
 console.log(find)
+
+/* listing the array elements */
+const foreach = arrayBundle
