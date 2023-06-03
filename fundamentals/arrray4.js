@@ -19,4 +19,8 @@ const find = arrayBundle.find(x => x.a === 10)
 console.log(find)
 
 /* listing the array elements */
-const foreach = arrayBundle
+const foreach = arrayBundle.forEach(x => console.log(`a: ${x.a},`))
+
+/* array elements with maped, aplica uma regra */
+const maped = arrayBundle.map(x => x.a * 5)
+console.log(maped)
