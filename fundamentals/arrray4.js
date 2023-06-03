@@ -12,3 +12,8 @@ const arrayBundle = [
 const filtrando = arrayBundle.filter(x => x.a > 2)
 
 console.log(filtrando)
+
+/* find array */
+const find = arrayBundle.find(x => x.a === 10)
+
+console.log(find)
