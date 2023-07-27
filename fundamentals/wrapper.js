@@ -1,4 +1,4 @@
-let objlist = ( 'test1', 'test2', 'test3' )
+let objlist = ( 'test1', 'test2', 'test6' )
 
 console.log(objlist.length)
 
