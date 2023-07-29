@@ -12,3 +12,14 @@ const vlr = true
 const vlrup = !!vlr
 
 console.log(vlrup)
+
+function res(res = ""){
+    if (res==="")
+    throw "this a error"
+    console.log(res)
+}
+
+try 
+
+catch() 
+
