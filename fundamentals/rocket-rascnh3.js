@@ -13,13 +13,17 @@ const vlrup = !!vlr
 
 console.log(vlrup)
 
-function res(res = ""){
-    if (res==="")
-    throw "this a error"
-    console.log(res)
+function xlr(x) {
+    let xl = Array.from(x)
+    console.log(xl.length)
+    if (xl.length = 0){
+        throw 'valor vazio'
+    }
+     
 }
 
-try 
-
-catch() 
-
+try {
+    xlr('')
+} catch (e) {
+    console.log(e)
+}

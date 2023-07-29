@@ -34,7 +34,9 @@ console.log(array.length)
 
 let phrase2 = 'lucas'
 
-console.log(Array.from(phrase2))
+let vf = Array.from(phrase2)
+
+console.log(vf.length)
 
 let pack = Array.from("ola")
 
